@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5012dbf9-c876-4190-9bcb-ed80e1e5e538" name="Default Changelist" comment="" />
+    <list default="true" id="7221ecc8-0cae-46f4-877d-5dab8b1bf6c8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,36 +42,45 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1qIgsMa2nLAImXzsavRsVtfP45z" />
+  <component name="ProjectId" id="1qIkRH0t0GAFI1RZchgSwAcSrV8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kylec\OneDrive\Desktop\Stuff\Folders and Files\java\Projects\My-School-Java-Projects\SammyUnit10\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kylec\OneDrive\Desktop\Stuff\Folders and Files\java\Projects\My-School-Java-Projects\SammyUnit10\src" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="TestLoadedDie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestLoadedDie" />
-      <module name="LoadedDie" />
+    <configuration name="LessonWithRentalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LessonWithRentalDemo" />
+      <module name="SammyUnit10" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestLoadedDie" />
+        <item itemvalue="Application.LessonWithRentalDemo" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5012dbf9-c876-4190-9bcb-ed80e1e5e538" name="Default Changelist" comment="" />
-      <created>1616772725021</created>
+      <changelist id="7221ecc8-0cae-46f4-877d-5dab8b1bf6c8" name="Default Changelist" comment="" />
+      <created>1616774482462</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1616772725021</updated>
+      <updated>1616774482462</updated>
     </task>
     <servers />
   </component>
@@ -85,31 +94,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1616774469357">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1616886684489">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="455" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616774469357" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1616774482292">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616886684489" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1616886684489">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616774482292" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1616774482292">
+    <state width="2517" height="401" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616886684489" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1616886684489">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616774482292" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1616774482292">
+    <state width="2517" height="401" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616886684489" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1616886684489">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616774482292" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1616774482292">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616774482292" />
-    <state x="662" y="320" key="new project wizard" timestamp="1616774481290">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="662" y="320" key="new project wizard/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616774481290" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616886684489" />
   </component>
 </project>
