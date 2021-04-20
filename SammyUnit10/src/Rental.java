@@ -9,7 +9,8 @@ public class Rental
     private int minutesExtra;
     private double price;
     private Equipment equipment;
-    public enum Equipment {KAYAK, SURFBOARD, JETSKI};
+    public enum Equipment {PERSONAL_WATERCRAFT, PONTOON_BOAT, ROWBOAT, CANOE, KAYAK,
+        BEACH_CHAIR, UMBRELLA, OTHER};
 
     public Rental(int contractNumber, int minutes, Equipment equipmentUsed)
     {
@@ -20,7 +21,7 @@ public class Rental
 
     public Rental()
     {
-        this(000, 0, Equipment.KAYAK);
+        this(000, 0, Equipment.PERSONAL_WATERCRAFT);
     }
 
     public void setContractNumber(String num)
