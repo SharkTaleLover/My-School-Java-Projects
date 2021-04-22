@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfc920f4-838a-4c1a-871e-bd70481d0cd5" name="Default Changelist" comment="" />
+    <list default="true" id="92d0c1ac-5288-42e1-9a2c-334fdc100353" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,40 +42,38 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1qIfTbQdm5X6sEGi5nXVqyosNB9" />
+  <component name="ProjectId" id="1rTxlhO9SxiJi9029ObCNyTXiIA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
-    <configuration name="CreateAliens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreateAliens" />
-      <module name="CreateAliens" />
+    <configuration name="PlayCardGames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlayCardGames" />
+      <module name="CardGame" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CreateAliens" />
+        <item itemvalue="Application.PlayCardGames" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cfc920f4-838a-4c1a-871e-bd70481d0cd5" name="Default Changelist" comment="" />
-      <created>1616772033775</created>
+      <changelist id="92d0c1ac-5288-42e1-9a2c-334fdc100353" name="Default Changelist" comment="" />
+      <created>1619014035436</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1616772033775</updated>
+      <updated>1619014035436</updated>
     </task>
     <servers />
   </component>
@@ -92,37 +90,47 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="760" y="274" key="#Project_Structure" timestamp="1616772042106">
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619095392061">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="760" y="274" key="#Project_Structure/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616772042106" />
-    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616772516635">
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619095392061" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1619097991360">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="734" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1616772516635" />
-    <state x="1059" y="441" key="FileChooserDialogImpl" timestamp="1619014027196">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619097991360" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1619097991360">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1059" y="441" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619014027196" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1619014035217">
+    <state width="2517" height="401" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619097991360" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1619097991360">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619014035217" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1619014035217">
+    <state width="2517" height="401" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619097991360" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1619097991360">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619014035217" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1619014035216">
+    <state width="2517" height="401" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619097991360" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1619019110498">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619014035216" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1619014035217">
+    <state width="498" height="446" key="SwitcherDM/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619019110498" />
+    <state x="825" y="436" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1619097303037">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619014035217" />
-    <state x="662" y="320" key="new project wizard" timestamp="1619014033016">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="662" y="320" key="new project wizard/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619014033016" />
+    <state x="825" y="436" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619097303037" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
