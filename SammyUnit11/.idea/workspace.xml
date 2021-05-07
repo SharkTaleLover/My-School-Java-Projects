@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb2e297f-8980-4b34-ae27-c2002a1cef79" name="Default Changelist" comment="" />
+    <list default="true" id="bb2e297f-8980-4b34-ae27-c2002a1cef79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SammyUnit12/src/Equipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit12/src/Equipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SammyUnit12/src/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit12/src/Rental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SammyUnit12/src/RentalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit12/src/RentalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SammyUnit12/src/SammysRentalPriceWithMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit12/src/SammysRentalPriceWithMethods.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +55,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
   </component>
   <component name="RecentsManager">
@@ -64,8 +73,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618850213571</updated>
+      <workItem from="1620405099096" duration="617000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -77,6 +90,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1085" y="384" key="#com.intellij.ide.util.MemberChooser" timestamp="1618851840695">

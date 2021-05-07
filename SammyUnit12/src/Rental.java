@@ -35,11 +35,13 @@ public class Rental
       contractNumber = num;
    }
 
-   public Equipment getEquipment() {
+   public Equipment getEquipment()
+   {
       return equipment;
    }
 
-   public void setEquipment(Equipment equipment) {
+   public void setEquipment(Equipment equipment)
+   {
       this.equipment = equipment;
    }
 
@@ -48,7 +50,8 @@ public class Rental
       return contractNumber;
    }
 
-   public void setHoursAndMinutes(int minutes) {
+   public void setHoursAndMinutes(int minutes)
+   {
       hoursRented = minutes / MINUTES_IN_HOUR;
       minutesExtra = minutes % MINUTES_IN_HOUR;
       if(minutesExtra > MINUTE_CAP)

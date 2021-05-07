@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class RentalDemo
@@ -10,7 +11,17 @@ public class RentalDemo
 
       for(int i = 0; i < rentals.length; i++)
       {
-         rentals[i] = new Rental(i + 1, SammysRentalPriceWithMethods.askRental(), SammysRentalPriceWithMethods.askEquipment());
+         while(true)
+         {
+            try
+            {
+               rentals[i] = new Rental(i + 1, SammysRentalPriceWithMethods.askRental(), SammysRentalPriceWithMethods.askEquipment());
+               break;
+            } catch (InputMismatchException e)
+            {
+               System.out.println("Please enter in the correct format.");
+            }
+         }
       }
 
       SammysRentalPriceWithMethods.displayMotto();

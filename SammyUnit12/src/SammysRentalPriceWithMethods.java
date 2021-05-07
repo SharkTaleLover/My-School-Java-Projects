@@ -1,16 +1,20 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class SammysRentalPriceWithMethods
 {
     public static int minutesRented, hoursRented, rentalCost, minutesExtra;
 
+    /*
     public static void main(String[] args)
     {
         askRental();
         displayMotto();
     }
+    */
 
-    public static int askRental() {
+    public static int askRental() throws InputMismatchException
+    {
         Scanner input = new Scanner(System.in);
         int minutesRented = 0;
         while(minutesRented < 60 || minutesRented > 7200)
@@ -21,7 +25,7 @@ public class SammysRentalPriceWithMethods
         return minutesRented;
     }
 
-    public static Rental.EquipmentType askEquipment()
+    public static Rental.EquipmentType askEquipment() throws InputMismatchException
     {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter equipment: 1, 2, 3, 4, 5, 6, 7, 8 >");
@@ -61,7 +65,7 @@ public class SammysRentalPriceWithMethods
     }
 
     public static void displayRental(Rental obj) {
-        System.out.println("Contract #"+obj.getContractNumber()+" You rented "+obj.getEquipment().toString()+" for "+obj.getHoursRented()+" hours and "+obj.getMinutesExtra()+" minutes for a total of $"+obj.getPrice());
+        System.out.println("Contract #"+obj.getContractNumber()+" You rented "+obj.getEquipment().getEquipmentName()+" for "+obj.getHoursRented()+" hours and "+obj.getMinutesExtra()+" minutes for a total of $"+obj.getPrice());
     }
 
     public static void sortRentals(Rental[] rentals, char order)
@@ -91,7 +95,7 @@ public class SammysRentalPriceWithMethods
                 }
                 else if(order == 'E')
                 {
-                    if (rentals[j].getEquipment().toString().compareTo(rentals[j + 1].getEquipment().toString()) > 0)
+                    if (rentals[j].getEquipment().getEquipmentName().compareTo(rentals[j + 1].getEquipment().getEquipmentName()) > 0)
                     {
                         temp = rentals[j];
                         rentals[j] = rentals[j + 1];
