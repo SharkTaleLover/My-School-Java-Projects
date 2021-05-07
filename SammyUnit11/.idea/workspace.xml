@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb2e297f-8980-4b34-ae27-c2002a1cef79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit12/src/Equipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit12/src/Equipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit12/src/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit12/src/Rental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit12/src/RentalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit12/src/RentalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit12/src/SammysRentalPriceWithMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit12/src/SammysRentalPriceWithMethods.java" afterDir="false" />
-    </list>
+    <list default="true" id="bb2e297f-8980-4b34-ae27-c2002a1cef79" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618850213571</updated>
-      <workItem from="1620405099096" duration="617000" />
+      <workItem from="1620405099096" duration="618000" />
     </task>
     <servers />
   </component>
