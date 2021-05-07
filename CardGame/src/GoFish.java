@@ -20,9 +20,9 @@ public class GoFish extends CardGame
         for(int i = 0; i < players.length; i++)
             for(int j = 0; j < cardsToDeal; j++)
             {
-                players[i].hand[j] = deck.get(j);
-                cardsDealt.add(deck.get(j));
-                deck.remove(j);
+                players[i].hand[j] = deck.get(0);
+                cardsDealt.add(deck.get(0));
+                deck.remove(0);
             }
     }
 

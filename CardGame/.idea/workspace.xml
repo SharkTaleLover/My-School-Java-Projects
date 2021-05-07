@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92d0c1ac-5288-42e1-9a2c-334fdc100353" name="Default Changelist" comment="" />
+    <list default="true" id="92d0c1ac-5288-42e1-9a2c-334fdc100353" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CardGame/GoFish.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CardGame/GoFish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CardGame/PlayCardGames.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CardGame/PlayCardGames.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoFish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GoFish.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +55,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="PlayCardGames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -74,8 +84,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619014035436</updated>
+      <workItem from="1619101227592" duration="172000" />
+      <workItem from="1619116794189" duration="68000" />
+      <workItem from="1619116875479" duration="936000" />
+      <workItem from="1619122535731" duration="76000" />
+      <workItem from="1619130189518" duration="42000" />
+      <workItem from="1619188656290" duration="48000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -88,36 +107,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619095392061">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619095392061" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1619097991360">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619097991360" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1619097991360">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619097991360" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1619097991360">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619097991360" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1619097991360">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619097991360" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1619019110498">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619019110498" />
-    <state x="825" y="436" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1619097303037">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="825" y="436" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1619097303037" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
