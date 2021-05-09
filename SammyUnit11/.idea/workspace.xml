@@ -68,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618850213571</updated>
       <workItem from="1620405099096" duration="618000" />
+      <workItem from="1620415466131" duration="13000" />
     </task>
     <servers />
   </component>
@@ -85,15 +86,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1085" y="384" key="#com.intellij.ide.util.MemberChooser" timestamp="1618851840695">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1085" y="384" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1618851840695" />
-    <state x="772" y="239" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1618850647895">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="772" y="239" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1618850647895" />
   </component>
 </project>

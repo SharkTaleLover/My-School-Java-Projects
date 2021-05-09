@@ -1,5 +1,5 @@
 import javax.swing.*;
-public class Quiz
+public class QuizWithExceptionCaught
 {
     public static void main(String[] args)
     {
@@ -41,8 +41,18 @@ public class Quiz
             while (!isGood)
             {
                 isGood = true;
-                entry = JOptionPane.showInputDialog(null, questions[x]);
-                ans = entry.charAt(0);
+                while (true)
+                {
+                    try
+                    {
+                        entry = JOptionPane.showInputDialog(null, questions[x]);
+                        ans = entry.charAt(0);
+                        break;
+                    } catch (StringIndexOutOfBoundsException e)
+                    {
+                        JOptionPane.showMessageDialog(null, "Please enter a character");
+                    }
+                }
                 if (ans != 'A' && ans != 'B' && ans != 'C')
                 {
                     isGood = false;
@@ -59,8 +69,7 @@ public class Quiz
                 JOptionPane.showMessageDialog(null, "Correct!");
             } else
             {
-                JOptionPane.showMessageDialog(null, "The correct answer is " +
-                        answers[x]);
+                JOptionPane.showMessageDialog(null, "The correct answer is " + answers[x]);
             }
             JOptionPane.showMessageDialog(null, "You got " + correct + " right and\n" + (questions.length - correct) + " wrong");
         }
