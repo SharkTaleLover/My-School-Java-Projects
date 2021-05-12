@@ -30,17 +30,34 @@ public class SammysRentalPriceWithMethods
         Scanner input = new Scanner(System.in);
         System.out.print("Enter equipment: 1, 2, 3, 4, 5, 6, 7, 8 >");
         int userEquipmentNum = input.nextInt();
-        String userEquipment = switch (userEquipmentNum)
-                {
-                    case 1 -> "PERSONAL_WATERCRAFT";
-                    case 2 -> "PONTOON_BOAT";
-                    case 3 -> "ROWBOAT";
-                    case 4 -> "CANOE";
-                    case 5 -> "KAYAK";
-                    case 6 -> "BEACH_CHAIR";
-                    case 7 -> "UMBRELLA";
-                    default -> "OTHER";
-                };
+        String userEquipment;
+        switch (userEquipmentNum)
+        {
+            case 1:
+                userEquipment = "PERSONAL_WATERCRAFT";
+                break;
+            case 2:
+                userEquipment = "PONTOON_BOAT";
+                break;
+            case 3:
+                userEquipment = "ROWBOAT";
+                break;
+            case 4:
+                userEquipment = "CANOE";
+                break;
+            case 5:
+                userEquipment = "KAYAK";
+                break;
+            case 6:
+                userEquipment = "BEACH_CHAIR";
+                break;
+            case 7:
+                userEquipment = "UMBRELLA";
+                break;
+            default:
+                userEquipment = "OTHER";
+                break;
+        }
 
         while (Rental.EquipmentType.valueOf(userEquipment) != Rental.EquipmentType.PERSONAL_WATERCRAFT
                 && Rental.EquipmentType.valueOf(userEquipment) != Rental.EquipmentType.PONTOON_BOAT

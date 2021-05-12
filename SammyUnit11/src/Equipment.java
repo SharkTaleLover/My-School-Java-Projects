@@ -2,7 +2,7 @@ public abstract class Equipment {
     Rental.EquipmentType equipmentType;
     String equipmentName;
     double equipmentFee;
-    public static final String[] equipmentNames = {"personal watercraft", "pontoon boat", "rowboar", "canoe", "kayak", "beach chair", "umbrella", "other"};
+    public static final String[] equipmentNames = {"personal watercraft", "pontoon boat", "rowboat", "canoe", "kayak", "beach chair", "umbrella", "other"};
     public static final double[] surcharges = {50, 40, 15, 12, 10, 2, 1, 0};
 
     public Equipment(Rental.EquipmentType equipType)

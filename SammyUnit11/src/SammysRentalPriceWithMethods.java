@@ -50,9 +50,6 @@ public class SammysRentalPriceWithMethods
             case 7:
                 userEquipment = "UMBRELLA";
                 break;
-            case 8:
-                userEquipment = "OTHER";
-                break;
             default:
                 userEquipment = "OTHER";
                 break;

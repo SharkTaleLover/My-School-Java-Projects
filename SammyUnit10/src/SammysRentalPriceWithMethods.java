@@ -23,16 +23,39 @@ public class SammysRentalPriceWithMethods
     public static Rental.Equipment askEquipment()
     {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter equipment (Kayak, Surfboard, or Jetski >");
-        String userEquipment = input.next().toUpperCase();
+        System.out.print("Enter equipment 1, 2, 3, 4, 5, 6, 7, or 8 >");
+        int userEquipmentNum = input.nextInt();
+        Rental.Equipment userEquipment;
 
-        while (Rental.Equipment.valueOf(userEquipment) != Rental.Equipment.KAYAK && Rental.Equipment.valueOf(userEquipment) != Rental.Equipment.SURFBOARD && Rental.Equipment.valueOf(userEquipment) != Rental.Equipment.JETSKI)
+        switch (userEquipmentNum)
         {
-            System.out.print("Please reenter your equipment >");
-            userEquipment = input.next().toUpperCase();
+            case 1:
+                userEquipment = Rental.Equipment.PERSONAL_WATERCRAFT;
+                break;
+            case 2:
+                userEquipment = Rental.Equipment.PONTOON_BOAT;
+                break;
+            case 3:
+                userEquipment = Rental.Equipment.ROWBOAT;
+                break;
+            case 4:
+                userEquipment = Rental.Equipment.CANOE;
+                break;
+            case 5:
+                userEquipment = Rental.Equipment.KAYAK;
+                break;
+            case 6:
+                userEquipment = Rental.Equipment.BEACH_CHAIR;
+                break;
+            case 7:
+                userEquipment = Rental.Equipment.UMBRELLA;
+                break;
+            default:
+                userEquipment = Rental.Equipment.OTHER;
+                break;
         }
 
-        return Rental.Equipment.valueOf(userEquipment);
+        return userEquipment;
     }
 
     public static void displayMotto() {
@@ -50,7 +73,7 @@ public class SammysRentalPriceWithMethods
         Rental temp;
         for(int i = 0; i < rentals.length - 1; i++)
         {
-            for(int j = 0; j < rentals.length - 1 - i; i++)
+            for(int j = 0; j < rentals.length - 1 - i; j++)
             {
                 if(order == 'C')
                 {

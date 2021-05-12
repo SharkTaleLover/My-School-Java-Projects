@@ -7,10 +7,7 @@ public class LessonWithRental extends Rental
     public LessonWithRental(int eventNum, int rentalMins, Equipment equipmentType)
     {
         super(eventNum, rentalMins, equipmentType);
-        if(equipmentType.equals(Equipment.KAYAK))
-            isLessonRequired = false;
-        else
-            isLessonRequired = true;
+        isLessonRequired = !equipmentType.equals(Equipment.PERSONAL_WATERCRAFT) && !equipmentType.equals(Equipment.PONTOON_BOAT);
     }
 
     public String getInstructor()

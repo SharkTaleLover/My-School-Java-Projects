@@ -19,8 +19,14 @@ public class Rental
       setHoursAndMinutes(minutes);
       switch (equipmentTypeUsed)
       {
-         case BEACH_CHAIR, UMBRELLA, OTHER -> equipment = new EquipmentWithoutLesson(equipmentTypeUsed);
-         default -> equipment = new EquipmentWithLesson(equipmentTypeUsed);
+         case BEACH_CHAIR:
+         case UMBRELLA:
+         case OTHER:
+            equipment = new EquipmentWithoutLesson(equipmentTypeUsed);
+            break;
+         default:
+            equipment = new EquipmentWithLesson(equipmentTypeUsed);
+            break;
       }
       price = equipment.getEquipmentFee() + basePrice;
    }

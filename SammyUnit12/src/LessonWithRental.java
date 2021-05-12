@@ -9,8 +9,16 @@ public class LessonWithRental extends Rental
         super(eventNum, rentalMins, equipmentType);
         switch (equipmentType)
         {
-            case PERSONAL_WATERCRAFT, PONTOON_BOAT, ROWBOAT, CANOE, KAYAK -> isLessonRequired = true;
-            default -> isLessonRequired = false;
+            case PERSONAL_WATERCRAFT:
+            case PONTOON_BOAT:
+            case ROWBOAT:
+            case CANOE:
+            case KAYAK:
+                isLessonRequired = true;
+                break;
+            default:
+                isLessonRequired = false;
+                break;
         }
     }
 
