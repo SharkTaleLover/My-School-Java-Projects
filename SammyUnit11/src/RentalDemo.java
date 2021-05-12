@@ -27,12 +27,12 @@ public class RentalDemo
 
       System.out.println();
 
-      for(int i = 0; i < rentals.length; i++)
+      for (Rental rental : rentals)
       {
-         SammysRentalPriceWithMethods.displayRental(rentals[i]);
+         SammysRentalPriceWithMethods.displayRental(rental);
       }
 
-      while(1 == 1) {
+      while(true) {
          System.out.print("Would you like to sort ascending order by (C)ontract price, (#)Contract Number, or (E)quipment Type, or (Q)uit >");
          char userChoice = input.next().charAt(0);
 
@@ -46,8 +46,9 @@ public class RentalDemo
 
          SammysRentalPriceWithMethods.sortRentals(rentals, userChoice);
 
-         for (int i = 0; i < rentals.length; i++) {
-            SammysRentalPriceWithMethods.displayRental(rentals[i]);
+         for (Rental rental : rentals)
+         {
+            SammysRentalPriceWithMethods.displayRental(rental);
          }
       }
         /*

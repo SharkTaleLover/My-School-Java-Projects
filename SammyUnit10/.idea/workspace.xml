@@ -19,25 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7221ecc8-0cae-46f4-877d-5dab8b1bf6c8" name="Default Changelist" comment="Fixed SammyUnit10 to actually sort correctly. Didn't bother to refactor like I did later since it still works.">
-      <change afterPath="$PROJECT_DIR$/../FileIOTest/CustomerList.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileIOTest/RandomEmployees.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileIOTest/src/CreateEmptyEmployeesFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileIOTest/src/CreateOneRandomAccessRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileIOTest/src/FileIoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileIOTest/src/WriteEmployeeFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FileIOTest/output-copy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FileIOTest/output-copy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FileIOTest/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FileIOTest/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LessonWithRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LessonWithRental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SammysRentalPriceWithMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SammysRentalPriceWithMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit11/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit11/src/Equipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit11/src/Equipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit11/src/SammysRentalPriceWithMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit11/src/SammysRentalPriceWithMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit12/src/LessonWithRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit12/src/LessonWithRental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit12/src/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit12/src/Rental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit12/src/SammysRentalPriceWithMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit12/src/SammysRentalPriceWithMethods.java" afterDir="false" />
-    </list>
+    <list default="true" id="7221ecc8-0cae-46f4-877d-5dab8b1bf6c8" name="Default Changelist" comment="Fixed SammyUnit10 to actually sort correctly. Didn't bother to refactor like I did later since it still works." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,8 +85,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616774482462</updated>
-      <workItem from="1620827170704" duration="820000" />
+      <workItem from="1620827170704" duration="862000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed SammyUnit10 to actually sort correctly. Didn't bother to refactor like I did later since it still works.">
+      <created>1620828003288</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620828003288</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

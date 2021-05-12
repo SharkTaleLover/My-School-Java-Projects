@@ -78,7 +78,7 @@ public class SammysRentalPriceWithMethods
     }
 
     public static void displayRental(Rental obj) {
-        System.out.println("Contract #"+obj.getContractNumber()+" You rented "+obj.getEquipment().toString()+" for "+obj.getHoursRented()+" hours and "+obj.getMinutesExtra()+" minutes for a total of $"+obj.getPrice());
+        System.out.println("Contract #"+obj.getContractNumber()+" You rented "+obj.getEquipment().getEquipmentName()+" for "+obj.getHoursRented()+" hours and "+obj.getMinutesExtra()+" minutes for a total of $"+obj.getPrice());
     }
 
     public static void sortRentals(Rental[] rentals, char order)
@@ -108,7 +108,7 @@ public class SammysRentalPriceWithMethods
                 }
                 else if(order == 'E')
                 {
-                    if (rentals[j].getEquipment().toString().compareTo(rentals[j + 1].getEquipment().toString()) > 0)
+                    if (rentals[j].getEquipment().getEquipmentName().compareTo(rentals[j + 1].getEquipment().getEquipmentName()) > 0)
                     {
                         temp = rentals[j];
                         rentals[j] = rentals[j + 1];

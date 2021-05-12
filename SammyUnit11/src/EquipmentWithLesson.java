@@ -7,7 +7,8 @@ public class EquipmentWithLesson extends Equipment {
         equipmentFee = surcharges[equipmentType.ordinal()];
     }
 
-    public String getPolicy() {
+    public String getPolicy()
+    {
         return null;
     }
 }

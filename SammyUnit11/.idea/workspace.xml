@@ -20,23 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb2e297f-8980-4b34-ae27-c2002a1cef79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FileIOTest/CustomerList.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileIOTest/RandomEmployees.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileIOTest/src/CreateEmptyEmployeesFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileIOTest/src/CreateOneRandomAccessRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileIOTest/src/FileIoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FileIOTest/src/WriteEmployeeFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FileIOTest/output-copy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FileIOTest/output-copy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FileIOTest/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FileIOTest/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SammyUnit10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit10/src/LessonWithRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit10/src/LessonWithRental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit10/src/SammysRentalPriceWithMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit10/src/SammysRentalPriceWithMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/LessonWithRental.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/LessonWithRental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/Rental$Equipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/Rental$Equipment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/SammysRentalPriceWithMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/SammysRentalPriceWithMethods.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EquipmentWithLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EquipmentWithLesson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RentalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RentalDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SammysRentalPriceWithMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SammysRentalPriceWithMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit12/src/LessonWithRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit12/src/LessonWithRental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit12/src/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit12/src/Rental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit12/src/SammysRentalPriceWithMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit12/src/SammysRentalPriceWithMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +69,31 @@
       <recent name="C:\Users\kylec\OneDrive\Desktop\Stuff\Folders and Files\java\Projects\My-School-Java-Projects\SammyUnit11\src" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="RentalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RentalDemo" />
+      <module name="SammyUnit11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RentalDemo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -87,7 +104,7 @@
       <updated>1618850213571</updated>
       <workItem from="1620405099096" duration="618000" />
       <workItem from="1620415466131" duration="13000" />
-      <workItem from="1620827182487" duration="660000" />
+      <workItem from="1620827182487" duration="1318000" />
     </task>
     <servers />
   </component>
