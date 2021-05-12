@@ -19,17 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb2e297f-8980-4b34-ae27-c2002a1cef79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SammyUnit10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/LessonWithRental.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/LessonWithRental.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/Rental$Equipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/Rental$Equipment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/Rental.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/SammysRentalPriceWithMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SammyUnit10/out/production/SammyUnit10/SammysRentalPriceWithMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EquipmentWithLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EquipmentWithLesson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RentalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RentalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SammysRentalPriceWithMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SammysRentalPriceWithMethods.java" afterDir="false" />
-    </list>
+    <list default="true" id="bb2e297f-8980-4b34-ae27-c2002a1cef79" name="Default Changelist" comment="Fixed a bug with SammyUnit11 causing equipment type to print the toString() memory address instead of the name" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,8 +94,16 @@
       <updated>1618850213571</updated>
       <workItem from="1620405099096" duration="618000" />
       <workItem from="1620415466131" duration="13000" />
-      <workItem from="1620827182487" duration="1318000" />
+      <workItem from="1620827182487" duration="1473000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed a bug with SammyUnit11 causing equipment type to print the toString() memory address instead of the name">
+      <created>1620828643917</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620828643917</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,5 +120,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed a bug with SammyUnit11 causing equipment type to print the toString() memory address instead of the name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a bug with SammyUnit11 causing equipment type to print the toString() memory address instead of the name" />
   </component>
 </project>
