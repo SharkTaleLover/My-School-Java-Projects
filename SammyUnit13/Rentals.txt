@@ -1,0 +1,8 @@
+1,personal watercraft,60,90.0
+2,pontoon boat,70,90.0
+3,rowboat,80,75.0
+4,canoe,90,82.0
+5,kayak,100,90.0
+6,beach chair,110,82.0
+7,umbrella,120,81.0
+8,other,180,120.0
