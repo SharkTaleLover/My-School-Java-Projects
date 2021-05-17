@@ -8,16 +8,16 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class SmarterLastManStanding extends JFrame implements ItemListener, ActionListener
+public class LastManStanding extends JFrame implements ItemListener, ActionListener
 {
     static List<JCheckBox> boxes = new ArrayList<JCheckBox>();
     static List<JCheckBox> selectionsList = new ArrayList<JCheckBox>();
     static JButton button = new JButton("Submit");
     static JLabel debugLabel = new JLabel();
-    static SmarterLastManStanding panel = new SmarterLastManStanding();
+    static LastManStanding panel = new LastManStanding();
     static int selections = 0;
 
-    public SmarterLastManStanding()
+    public LastManStanding()
     {
         setLayout(new FlowLayout());
         for(int i = 0; i < 10; i++)
@@ -86,7 +86,7 @@ public class SmarterLastManStanding extends JFrame implements ItemListener, Acti
     {
         Random random = new Random();
         int checkNum = random.nextInt(3) + 1;
-        if(boxes.size() < 4)
+        if(checkNum > boxes.size())
             checkNum = boxes.size();
         debugLabel.setText("AI selected " + checkNum + " boxes.");
         panel.pack();
