@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SmarterLastManStanding:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SmarterLastManStanding_jar</output-path>
+    <root id="archive" name="SmarterLastManStanding.jar">
+      <element id="module-output" name="SmarterLastManStanding" />
+    </root>
+  </artifact>
+</component>
