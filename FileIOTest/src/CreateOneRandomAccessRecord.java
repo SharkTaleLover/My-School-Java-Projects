@@ -8,7 +8,7 @@ public class CreateOneRandomAccessRecord
     public static void main(String[] args)
     {
         Path file =
-                Paths.get("RandomEmployees.txt");
+                Paths.get("C:\\Users\\kylec\\OneDrive\\Desktop\\Stuff\\Folders and Files\\java\\Projects\\My-School-Java-Projects\\FileIOTest\\RandomEmployees.txt");
         String s = "002,Newmann,12.25" + System.getProperty("line.separator");
         final int RECSIZE = s.length();
         byte[] data = s.getBytes();
@@ -27,4 +27,3 @@ public class CreateOneRandomAccessRecord
         }
     }
 }
-
